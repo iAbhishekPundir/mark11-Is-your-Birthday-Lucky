@@ -65,12 +65,12 @@ img{
 .footer {
     padding: 1rem 0rem;
     text-align: center;
-    color: #7c3aed;
+    color: black;
     margin-top: 3rem;
 }
 
 .footer .link {
-    color: #7c3aed;
+    color: #f0ecf6;
     text-decoration: none;
 
 }
