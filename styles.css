@@ -50,6 +50,8 @@ button {
 .output {
     font-size: x-large;
     color: wheat;
+    padding-bottom: 0;
+    margin-bottom: 0%;
 }
 
 .notice {
