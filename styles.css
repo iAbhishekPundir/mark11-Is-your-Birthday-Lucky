@@ -55,10 +55,9 @@ button {
 }
 
 .notice {
-    padding: 0.5rem;
     border: 1px solid white;
     border-radius: 1rem;
-    color: #ed7f3a;
+    color: #ed3a90;
     font-size: large;
     display: inline;
     padding: 0.5rem;
