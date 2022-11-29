@@ -72,7 +72,19 @@ img{
     padding: 1rem 0rem;
     text-align: center;
     color: black;
-    margin-top: 3rem;
+    margin-top: 12rem;
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+.link:hover{
+    background-color: #1e293b;
+    color: white;
+    padding: 0.1rem;
+    border-radius: 1rem;
+  
 }
 
 .footer .link {
