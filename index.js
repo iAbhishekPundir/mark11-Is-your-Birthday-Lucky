@@ -2,16 +2,20 @@ const dateOfBirth = document.querySelector("#dob");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkBtn = document.querySelector(".btn-check");
 const result = document.querySelector(".output");
-const outputImage = document.querySelector("#image");
 
 checkBtn.addEventListener('click', checkDobIsLucky);
 
 function checkDobIsLucky() {
     const birthDate = dateOfBirth.value;
+    console.log(birthDate);
     const sum = calculateSum(birthDate);
-    if (sum&&birthDate)
-    compareValues(sum, luckyNumber.value);
-    else result.innerText = "Please enter both the fields 🤔";
+    if (sum&&birthDate){
+        compareValues(sum, luckyNumber.value);
+    }
+    
+    else {
+        result.innerText = "Please enter both the fields 🤔";
+    }
 
 }
 
