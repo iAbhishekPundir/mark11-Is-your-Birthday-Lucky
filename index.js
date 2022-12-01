@@ -29,11 +29,20 @@ function calculateSum(birthDate) {
 }
 
 function compareValues(sum, luckyNumber) {
-    if (sum % luckyNumber === 0) {
-        result.innerText = "Yayy! Your Birthday is lucky 🤩";
-        
-    } else {
-        result.innerText = "Oops! Your birthday is not lucky 😢";
-       
+    if(sum && (luckyNumber) > 0){
+        if (sum % luckyNumber === 0) {
+            result.innerText = "Yayy! Your Birthday is lucky 🤩";
+            
+        } else {
+            result.innerText = "Oops! Your birthday is not lucky 😢";
+           
+        }
     }
+    else if(luckyNumber <= 0){
+        result.innerText="Please enter both the fields and lucky number should be > 0"
+    }
+    else{
+        result.innerText="Please enter both the fields 🤔"
+    }
+   
 }
